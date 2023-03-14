@@ -1,0 +1,40 @@
+.container {
+  margin-top: 32px;
+  padding: 0 32px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.title {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.showButton {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.noDataText {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.tabs {
+  color: var(--color-white) !important;
+  margin-bottom: 12px;
+}

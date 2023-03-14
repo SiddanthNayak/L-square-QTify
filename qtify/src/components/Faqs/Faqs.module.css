@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 33px auto;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.accordian {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-white) !important;
+  border: 1px solid var(--color-white) !important;
+  margin-top: 10px !important;
+  border-radius: 10px !important;
+}
+
+.expandIcon {
+  color: var(--color-primary) !important;
+  width: 35px !important;
+  height: 40px !important;
+}
+
+.accordianDetails {
+  background-color: var(--color-white) !important;
+  color: var(--color-secondary) !important;
+  border-radius: 0px 0px 10px 10px !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.question {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
